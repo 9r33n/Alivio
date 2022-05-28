@@ -1,0 +1,391 @@
+.about-navbar {
+    background-color: #245852;
+}
+
+.navbar {
+    padding-top: 18px;
+    max-width: 1370px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 17px;
+}
+
+.logo a {
+    color: var(--green);
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+    gap: 72px;
+}
+
+.navbar-menu li a {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--white);
+}
+
+.navbar-btn {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.navbar-btn a {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--white);
+}
+
+.navbar-btn button {
+    padding: 13px 50px;
+    background-color: var(--green);
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+
+.header-container {
+    /* padding-top: 17px; */
+    position: relative;
+    margin-bottom: 172px;
+}
+
+.header-content {
+    width: 440px;
+    position: absolute;
+    top: 18%;
+    left: 13%;
+    /* transform: translateY(-50%); */
+}
+
+.header-container img {
+    width: 100%;    
+}
+
+
+.header-content h1 {
+    font-family: 'Tiro Bangla', serif;
+    font-weight: 900;
+    font-size: 70px;
+    color: var(--green);
+    margin-bottom: 30px;
+}
+
+.header-content p {
+    max-width: 420px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #484848;
+    margin-bottom: 18px;
+    line-height: 31.4px;
+}
+
+.header-content button {
+    padding: 20px 50px;
+    color: #fff;
+    background-color: var(--green);
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    border: 1px solid #01996D;
+    border-radius: 4px;
+}
+
+.work {
+    max-width: 1370px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.work h6 {
+    color: #424242;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.work-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 136px;
+}
+
+.work-content h2 {
+    max-width: 584px;
+    width: 100%;
+    font-family: 'Tiro Bangla', serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 78.5px;
+    color: var(--green);
+    margin-bottom: 106px;
+}
+
+.work-content p {
+    max-width: 671px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #424242;
+    padding-top: 20px;
+}
+
+.work h6 {
+    color: #424242;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.work-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 136px;
+    margin-bottom: 86px;
+}
+
+.work-header h2 {
+    font-family: 'Tiro Bangla', serif;
+    max-width: 584px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 78.5px;
+    color: var(--green);
+}
+
+.work-header p {
+    margin-top: 20px;
+    max-width: 671px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #424242;
+}
+
+.work-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 294px;
+}
+
+.work-desc {
+    max-width: 390px;
+    position: relative;
+}
+
+.work-desc-num {
+    font-family: 'Tiro Bangla', serif;
+    font-weight: 400;
+    font-size: 150px;
+    color: rgba(1, 153, 109, 0.2);
+    margin-bottom: 15px;
+}
+
+.work-desc-name {
+    position: absolute;
+    font-family: 'Tiro Bangla', serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--black);
+    top: 11.5%;
+    left: 21%;
+}
+
+.work-desc-text {
+    font-weight: 500;
+    font-size: 20px;
+    color: #424242;
+    line-height: 30px;
+    margin-bottom: 55px;
+}
+
+
+.work-desc-img img:nth-child(2) {
+    max-width: 185px;
+    position: absolute;
+    right: 0;
+    top: 70%;
+}
+
+.work-desc:nth-child(2) {
+    transform: translateY(32%);
+}
+
+.work-desc:nth-child(3) {
+    transform: translateY(7%);
+}
+
+.hear {
+    background-color: #245852;
+}
+
+.about-hear-content {
+    max-width: 1506px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 229px 0 177px 0;
+}
+
+.header-content {
+    max-width: 580px;
+    width: 100%;
+}
+
+.hear-content-name {
+    font-family: 'Tiro Bangla', serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 78.5px;
+    color: var(--white);
+    margin-bottom: 33px;
+}
+
+.hear-content-text {
+    font-weight: 600;
+    font-size: 25px;
+    color: var(--white);
+    line-height: 39.25px;
+    margin-bottom: 57px;
+}
+
+.btn {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--white);
+    background-color: var(--green);
+    border: 1px solid #01996D;
+    border-radius: 4px;
+    padding: 20px 50px;
+    cursor: pointer;
+}
+
+.hear-video iframe {
+    border-radius: 16px;
+}
+
+.product {
+    margin-top: 120px;
+    display: flex;
+    max-width: 1308px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--black);
+    gap: 86px;
+    margin-bottom: 243px;
+}
+
+.product-img {
+    position: relative;
+}
+
+.product-img div {
+    max-width: 296px;
+    width: 100%;
+    text-align: center;
+    border-radius: 3.72971px;
+    position: absolute;
+    background-color: var(--white);
+    bottom: -19%;
+    left: -10%;
+    filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
+}
+
+.product-img div h4 {
+    margin-top: 23px;
+    max-width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 15px;
+    border-bottom: 0.745942px solid #000000;
+    padding-bottom: 8px;
+    margin-bottom: 14px;
+}
+
+.product-img div img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 11px;
+}
+
+.product-img div p {
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.product-img div h3 {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.product-img div ul {
+    margin-bottom: 30px;
+}
+
+.product-img div ul li {
+    list-style: inside;
+    line-height: 17px;
+    margin-top: 16px;
+    padding-left: 61px;
+    text-align: left;
+}
+
+.product-content-head {
+    font-weight: 600;
+    font-size: 25px;
+    color: #424242;
+    margin-bottom: 10px;
+}
+
+.product-content-name {
+    font-family: 'Tiro Bangla', serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 78.5px;
+    margin-bottom: 20px;
+    color: var(--green);
+}
+
+.product-content-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    margin-bottom: 40px;
+    color: #484848
+}
+
+.footer {
+    background-color: #245852;
+    padding: 95px 275px 230px ;
+}
+
+.footer-logo {
+    font-weight: 900;
+    font-size: 40px;
+    color: var(--white);
+}
+
+.footer ul li {
+    margin-top: 60px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: var(--white);
+}

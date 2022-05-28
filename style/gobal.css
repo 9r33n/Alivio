@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1.2;
+  font-family: 'Lato', sans-serif;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,li {
+  list-style: none;
+}
+
+:root {
+  --green: #01996D;
+  --black: #292929;
+  --white: #FFFFFF;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transform: translateY(-10px);
+  /* trái_phải lên_xuống nhoè lan màu */
+  box-shadow: 10px 10px 10px #13bb7b
+}
+
+
